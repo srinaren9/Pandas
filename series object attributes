@@ -1,0 +1,19 @@
+#Program to display the values of series object attributes
+import pandas as pd
+import numpy as np
+section=['XIIA','XIIB','XIIC','XIID']
+strength=[25,np.NaN,27,28]
+s=pd.Series(index=section,data=strength)
+print(s)
+print("--------------------------------")
+print("Attribute Name \t\t object1")
+print("--------------------------------")
+print("Index :\t\t",s.index)
+print("Values :\t",s.values)
+print("Data type :\t",s.dtype)
+print("Object shape :\t",s.shape)
+print("No of bytes :\t",s.nbytes)
+print("No of dimensions :\t",s.ndim)
+print("Size :\t",s.size)
+print("Has NaNs :\t",s.hasnans)
+print("Empty or not :\t",s.empty)
