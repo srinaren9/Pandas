@@ -1,0 +1,6 @@
+#Total no of medals to be won is 200
+#Treasure fest game held every alternate year
+#In the decade 2020-2030
+import pandas as pd
+s=pd.Series(data=200,index=range(2020,2030,2))
+print(s)
