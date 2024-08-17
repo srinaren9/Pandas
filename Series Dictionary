@@ -1,0 +1,6 @@
+#Program to create series object using dictionary
+#Stores no of students in each section
+import pandas as pd
+stu={'12A':25,'12B':27,'12C':28,'12D':23}
+s=pd.Series(stu)
+print(s)
