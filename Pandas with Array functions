@@ -1,0 +1,8 @@
+#Utilising array function in series
+import pandas as pd
+import numpy as np
+
+sec=['12A','12B','12C']
+contr=np.array([20000,30000,np.NaN])
+obj=pd.Series(index=sec,data=contr*2)
+print(obj)
