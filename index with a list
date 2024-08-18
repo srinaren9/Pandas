@@ -1,0 +1,4 @@
+#Pandas program where a list is present within the series code and the value of data is assigned
+import pandas as pd
+obj=pd.Series(50000,index=['a','b','c'])
+print(obj)
