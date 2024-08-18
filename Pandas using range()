@@ -1,0 +1,11 @@
+#Program to create a series consisting of (a) index using range 
+# (b) which will double the value of index and (c) which will then calculate the square of the index
+
+import pandas as pd
+import numpy as np
+import math
+a=np.arange(9,13)
+obj1=pd.Series(index=a,data=a*2)
+obj2=pd.Series(index=a,data=a**3)
+print(obj1)
+print(obj2)
