@@ -1,0 +1,6 @@
+#Pandas program where we have 2 lists and assign the lists to be the index and data
+import pandas as pd
+month=['Jan','Feb','Mar','Apr']
+value=[30000,32000,33000,32500]
+obj=pd.Series(index=month,data=value)
+print(obj)
