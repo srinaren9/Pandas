@@ -1,0 +1,12 @@
+#Program to create a series consists of
+#(a) index using arange
+#(b) which will double the value of index
+#(c) which will calculate the square of the index
+import pandas as pd
+import numpy as np
+s=np.arange(9,13)
+print(s)
+a1=pd.Series(index=s, data=s*2)
+print(a1)
+a2=pd.Series(index=s, data=s**2)
+print(a2)
