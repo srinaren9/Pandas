@@ -1,0 +1,7 @@
+#Program to set the data type for a series
+import pandas as pd
+import numpy as np
+section=['12A','12B','12C','12D','12E']
+contribution=np.array([5500,7500,9000,3000,np.NaN])
+s=pd.Series(index=section, data=contribution*2, dtype=np.float32)
+print(s)
