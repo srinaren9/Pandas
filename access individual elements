@@ -1,0 +1,17 @@
+#Program to access individual elements
+import pandas as pd
+import numpy as np
+month=['Feb','Jan','Apr']
+days=[28,31,30]
+obj=pd.Series(index=month,data=days)
+print("The whole object")
+print(obj)
+print("Access individual element - Index can be given")
+print("Element at index 2")
+print(obj[2])
+print("Element at index 0")
+print(obj[0])
+print("Element at index Jan")
+print(obj["Jan"])
+print("Element at index Apr")
+print(obj["Apr"])
