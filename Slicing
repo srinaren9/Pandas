@@ -1,0 +1,16 @@
+#Program to extract slices from series object
+import pandas as pd
+slno=[0,1,2,3,4,5,6]
+fruits=["Apple","Banana","Grapes","Jackfruit","Mango","Orange","Pineapple"]
+k=pd.Series(index=slno,data=fruits)
+print(k)
+print("k[1:] values:")
+print(k[1:])
+print("k[2:5] values:")
+print(k[2:5])
+print("k[0::2] values:")
+print(k[0::2])
+print("k[-3:] values:")
+print(k[-3:])
+print("k[:-3] values:")
+print(k[:-3])
