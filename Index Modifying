@@ -1,0 +1,15 @@
+#Modifying values using index
+import pandas as pd
+sec=['12A','12B','12C','12D','12E']
+strength=[20,25,30,25,30]
+p=pd.Series(index=sec, data=strength)
+print(p)
+print("Modifying elements of Series Object using index")
+p[0]=40
+print(p)
+print("Modifying elements of Series Object using start and stop")
+p[2:4]=50
+print(p)
+print("Modifying elements of Series Object using just start value")
+p[2:]=100
+print(p)
