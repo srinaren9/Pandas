@@ -1,0 +1,6 @@
+#Program to add in pandas
+import pandas as pd
+g11=pd.Series(data=[50,50,60],index=['Science','Commerce','Humanities'])
+g12=pd.Series(data=[25,45,55],index=['Science','Commerce','Humanities'])
+print("Total No. of students streamwise:")
+print(g11+g12)
