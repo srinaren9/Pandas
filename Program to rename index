@@ -1,0 +1,8 @@
+#Program to rename index
+import pandas as pd
+sec=['12A','12B','12C','12D','12E']
+strength=[20,25,30,25,30]
+p=pd.Series(index=sec,data=strength)
+print(p)
+p.index=['a','b','c','d','e']
+print(p)
