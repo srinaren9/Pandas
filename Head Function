@@ -1,0 +1,13 @@
+#Program to demonstrate head functions
+import pandas as pd
+s=pd.Series(['a','b','c','d','e','f','g','h'])
+print("head()")
+print(s.head())
+print("head(4)")
+print(s.head(4))
+print("head(-2)")
+print(s.head(-2))
+
+#When a number is not speicified it will print the first 5 rows
+#Regular integer will print the first few rows for head
+#Negative Integer will print eveyrthing but the last few rows by count (i.e -2 will print everything but last 2 rows and 4 will print first 4 rows, meanwhile no numbers means first 5 rows will be printed)
