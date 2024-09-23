@@ -1,0 +1,6 @@
+#Program with the same data for all values
+#Program to create a series that stores initial budget allocated
+#Rs 5000 for the four quarters of the year
+import pandas as pd
+s=pd.Series(5000,index={'Qtr1','Qtr2','Qtr3','Qtr4'})
+print(s)
