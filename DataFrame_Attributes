@@ -1,0 +1,17 @@
+#Program to demonstrate DataFrame Attributes/Properties
+import pandas as pd
+import numpy as np
+df=pd.DataFrame({'Weight':[20,36,np.NaN],
+                'Name':['Nehal','Sameera','Ajay'],
+                'Gender':['Male','Female','Male']})
+print("Original DataFrame: \n",df)
+print("Index: \n",df.index)
+print("Column: \n",df.columns)
+print("Axes: \n",df.axes)
+print("Dtypes: \n",df.size)
+print("Shape: \n",df.shape)
+print("Values: \n",df.values)
+print("Empty: \n",df.empty)
+print("Ndim: \n",df.ndim)
+print("Transpose: \n",df.T)
+
