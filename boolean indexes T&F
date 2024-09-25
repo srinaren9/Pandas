@@ -1,0 +1,7 @@
+#Creating Dataframe using boolean indexes
+import pandas as pd 
+Days=['Monday','Tuesday','Wednesday','Thursday','Friday']
+Classes=[6,0,3,0,8]
+dc={'Week Day':Days,'No of Classes':Classes}
+df=pd.DataFrame(dc,index=[True,False,True,False,True])
+print(df)
