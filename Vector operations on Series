@@ -1,0 +1,10 @@
+#Program to demonstrate vector operations on series object
+import pandas as pd
+import numpy as np
+p=np.array([1.50,12.75,24.00,35.25,46.50])
+k=pd.Series(data=p)
+print(k)
+print(k+2)
+print(k*3)
+print(k**2)
+print(k>25)
