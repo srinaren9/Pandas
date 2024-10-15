@@ -1,0 +1,7 @@
+#Program to create a series with unique indexes
+import pandas as pd
+import numpy as np
+a=np.arange(2.75,50,9.75)
+print(a)
+s=pd.Series(a,index=['a','a','b','a','b'])
+print(s)
