@@ -1,0 +1,5 @@
+#specify your own index labels
+import pandas as pd
+list=[[25,45,60],[34,67,89],[89,90,56],[10,20,30]]
+df1=pd.DataFrame(list,index=['Sameer','Rohan','Sanjana','Vishal'])
+print(df1)
