@@ -1,0 +1,6 @@
+import pandas as pd
+import numpy as np
+classes=['12A','12B','12C','12D','12E','12F']
+contr=np.array([2000,3000,4300,3400,4000,2300])
+k=pd.Series(index=classes,data=contr*2)
+print(k[1:-2])
