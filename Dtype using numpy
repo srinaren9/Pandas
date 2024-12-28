@@ -1,0 +1,9 @@
+#Specifying a data type
+import pandas as pd
+import numpy as np
+
+
+contr=np.array([3000,4000,2000])
+clas=['12A','12B','12C']
+k=pd.Series(index=clas,data=contr*2,dtype=np.float32)
+print(k)
